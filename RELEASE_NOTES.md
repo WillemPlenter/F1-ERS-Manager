@@ -1,9 +1,11 @@
-# F1 ERS Manager 1.2
+# F1 ERS Manager 1.2.1
 
-Suggested GitHub tag: `v1.2`
+Suggested GitHub tag: `v1.2.1`
 
 ## Release highlights
 
+- Uses the revised F1 ERS Manager artwork throughout the README, Windows icon,
+  executable, title bar, and taskbar.
 - Supports the verified Steam builds of F1 Manager 2023 and F1 Manager 2024.
 - Holds the current ERS level independently for Car 1, Car 2, or both cars.
 - Provides one-time 100% and 0% ERS actions.
@@ -34,8 +36,8 @@ Suggested GitHub tag: `v1.2`
 
 Upload both files:
 
-- `F1-ERS-Manager-v1.2-win-x64.zip`
-- `F1-ERS-Manager-v1.2-win-x64.zip.sha256`
+- `F1-ERS-Manager-v1.2.1-win-x64.zip`
+- `F1-ERS-Manager-v1.2.1-win-x64.zip.sha256`
 
 The ZIP contains the executable, complete source, license, documentation, and
 per-file SHA-256 manifest. It contains no logs or personal hotkey settings.

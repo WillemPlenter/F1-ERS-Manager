@@ -13,7 +13,7 @@ using System.Runtime.InteropServices;
 
 internal static class AppVersion
 {
-    internal const string Number = "1.2";
-    internal const string Numeric = "1.2.0.0";
+    internal const string Number = "1.2.1";
+    internal const string Numeric = "1.2.1.0";
     internal const string WindowTitle = "F1 ERS Manager " + Number;
 }

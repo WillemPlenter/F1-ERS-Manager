@@ -7,7 +7,7 @@ made by Willem Plenter (SkaffaWilly)
 F1 ERS Manager is a standalone Windows utility for controlling the ERS battery
 level of the player's two cars in F1 Manager 2023 and F1 Manager 2024.
 
-**Version:** 1.2 · **Platform:** Windows x64 · **License:** MIT
+**Version:** 1.2.1 · **Platform:** Windows x64 · **License:** MIT
 
 One executable supports both games. It detects the running title, validates the
 complete game executable, finds both player cars, and enables controls only when
@@ -16,7 +16,7 @@ runtimes are not required.
 
 ## Download and setup
 
-1. Download `F1-ERS-Manager-v1.2-win-x64.zip`.
+1. Download `F1-ERS-Manager-v1.2.1-win-x64.zip`.
 2. Verify the optional `.zip.sha256` file as described under
    [Download integrity](#download-integrity).
 3. Extract the ZIP into a writable folder outside the game's installation.
@@ -170,7 +170,7 @@ The script uses the built-in 64-bit .NET Framework compiler, creates
 test executable, runs the isolated self-tests, and removes that test
 executable. No NuGet packages or network downloads are required.
 
-The final v1.2 source passes 67 checks covering hotkeys and migration, target
+The final v1.2.1 source passes 67 checks covering hotkeys and migration, target
 cycling, overlay gating and positioning, exact-build helpers, ERS value ranges,
 the F1M24 save reader, and fail-closed multi-game selection. The self-tests do
 not attach to a game or write game memory.
@@ -191,11 +191,11 @@ embedded into the executable as its Windows icon.
 ## Download integrity
 
 The GitHub release includes
-`F1-ERS-Manager-v1.2-win-x64.zip.sha256`. Verify the ZIP in
+`F1-ERS-Manager-v1.2.1-win-x64.zip.sha256`. Verify the ZIP in
 PowerShell:
 
 ```powershell
-Get-FileHash -LiteralPath '.\\F1-ERS-Manager-v1.2-win-x64.zip' -Algorithm SHA256
+Get-FileHash -LiteralPath '.\\F1-ERS-Manager-v1.2.1-win-x64.zip' -Algorithm SHA256
 ```
 
 Compare the result with the hash in the `.sha256` file.
